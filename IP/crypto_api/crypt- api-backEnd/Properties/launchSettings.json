@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:51341",
-      "sslPort": 44377
+      "applicationUrl": "http://localhost:5979",
+      "sslPort": 44307
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CarBlogApi": {
+    "crypt__api_backEnd": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

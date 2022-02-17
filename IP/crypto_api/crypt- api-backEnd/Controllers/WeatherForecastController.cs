@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CarBlogApi.Controllers
+namespace crypt__api_backEnd.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -34,11 +34,6 @@ namespace CarBlogApi.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-        }
-        [HttpGet]
-        public IEnumerable get()
-        {
-
         }
     }
 }
