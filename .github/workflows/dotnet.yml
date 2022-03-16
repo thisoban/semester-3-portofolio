@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build ../../../../crypt- api-backEnd.sln --no-restore
     - name: Test
-      run: dotnet test ../IP/crypto_api/crypt- api-backEnd/crypt- api-backEnd.sln --no-build --verbosity normal
+      run: dotnet test ../../../../crypt- api-backEnd/crypt- api-backEnd.sln --no-build --verbosity normal
